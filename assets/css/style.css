@@ -10,7 +10,8 @@ body {
 	line-height: 30px;
 	text-align: left;
 	/* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
-	width: 1200px;
+	width: 100%;
+	height: 100%;
 }
 
 header	{
@@ -137,7 +138,7 @@ footer {
 	overflow: auto;
 	margin: 0 auto;
 	background-image: url("../images/background.png");
-	height: 600px;
+	height: 100%;
 	width: 100%;
 	border-bottom: 5px solid #4aaaa5;
 }
@@ -196,20 +197,21 @@ footer {
 #myFriend {
 	float: right;
 	padding: 10px;
-	width: 270px;
+	width: 25%;
 	top: 30px;
 	text-align: center;
-	margin-right: 125px;
-	margin-top: 30px
+	margin-right: 20px;
+	margin-left: 5px;
+	margin-top: 0px;
 }
 
 #main-bio,
 #contact-form,
 #skill,
 #project-portfolio {
-	position: relative;
-	text-align: left;
-	width: 650px;
+	float: left;
+	text-align: center;
+	width: 60%;
 	top: 30px;
 	margin-left: 125px;
 	margin-bottom: 50px;
